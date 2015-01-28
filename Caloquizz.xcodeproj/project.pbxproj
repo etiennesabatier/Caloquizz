@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7A50AAE31A72DB020089C9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50AAE21A72DB020089C9B1 /* AppDelegate.swift */; };
-		7A50AAE51A72DB020089C9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50AAE41A72DB020089C9B1 /* ViewController.swift */; };
-		7A50AAE81A72DB020089C9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A50AAE61A72DB020089C9B1 /* Main.storyboard */; };
+		7A50AAE51A72DB020089C9B1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50AAE41A72DB020089C9B1 /* WelcomeViewController.swift */; };
 		7A50AAEA1A72DB020089C9B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A50AAE91A72DB020089C9B1 /* Images.xcassets */; };
-		7A50AAED1A72DB020089C9B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A50AAEB1A72DB020089C9B1 /* LaunchScreen.xib */; };
 		7A50AAF91A72DB020089C9B1 /* CaloquizzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50AAF81A72DB020089C9B1 /* CaloquizzTests.swift */; };
+		7A93C9C81A784F2700F8A128 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93C9C71A784F2700F8A128 /* SecondViewController.swift */; };
+		7AE0EBEC1A73046C00D1AA86 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EBEB1A73046C00D1AA86 /* FirstView.swift */; };
+		7AE0EBF01A75F4D100D1AA86 /* ColorBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE0EBEF1A75F4D000D1AA86 /* ColorBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		7A50AADD1A72DB020089C9B1 /* Caloquizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caloquizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A50AAE11A72DB020089C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A50AAE21A72DB020089C9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A50AAE41A72DB020089C9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A50AAE71A72DB020089C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A50AAE41A72DB020089C9B1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		7A50AAE91A72DB020089C9B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7A50AAEC1A72DB020089C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7A50AAF21A72DB020089C9B1 /* CaloquizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloquizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A50AAF71A72DB020089C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A50AAF81A72DB020089C9B1 /* CaloquizzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloquizzTests.swift; sourceTree = "<group>"; };
+		7A93C9C71A784F2700F8A128 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		7AE0EBEB1A73046C00D1AA86 /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstView.swift; path = ../FirstView.swift; sourceTree = "<group>"; };
+		7AE0EBEF1A75F4D000D1AA86 /* ColorBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorBook.swift; path = ../ColorBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				7A50AAE21A72DB020089C9B1 /* AppDelegate.swift */,
-				7A50AAE41A72DB020089C9B1 /* ViewController.swift */,
-				7A50AAE61A72DB020089C9B1 /* Main.storyboard */,
+				7AE0EBEB1A73046C00D1AA86 /* FirstView.swift */,
+				7AE0EBEF1A75F4D000D1AA86 /* ColorBook.swift */,
+				7A50AAE41A72DB020089C9B1 /* WelcomeViewController.swift */,
+				7A93C9C71A784F2700F8A128 /* SecondViewController.swift */,
 				7A50AAE91A72DB020089C9B1 /* Images.xcassets */,
-				7A50AAEB1A72DB020089C9B1 /* LaunchScreen.xib */,
 				7A50AAE01A72DB020089C9B1 /* Supporting Files */,
 			);
 			path = Caloquizz;
@@ -192,8 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A50AAE81A72DB020089C9B1 /* Main.storyboard in Resources */,
-				7A50AAED1A72DB020089C9B1 /* LaunchScreen.xib in Resources */,
 				7A50AAEA1A72DB020089C9B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A50AAE51A72DB020089C9B1 /* ViewController.swift in Sources */,
+				7AE0EBF01A75F4D100D1AA86 /* ColorBook.swift in Sources */,
+				7AE0EBEC1A73046C00D1AA86 /* FirstView.swift in Sources */,
+				7A50AAE51A72DB020089C9B1 /* WelcomeViewController.swift in Sources */,
+				7A93C9C81A784F2700F8A128 /* SecondViewController.swift in Sources */,
 				7A50AAE31A72DB020089C9B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,25 +238,6 @@
 			targetProxy = 7A50AAF31A72DB020089C9B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7A50AAE61A72DB020089C9B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A50AAE71A72DB020089C9B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A50AAEB1A72DB020089C9B1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A50AAEC1A72DB020089C9B1 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7A50AAFA1A72DB020089C9B1 /* Debug */ = {
@@ -405,6 +390,7 @@
 				7A50AAFE1A72DB020089C9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A50AAFF1A72DB020089C9B1 /* Build configuration list for PBXNativeTarget "CaloquizzTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +399,7 @@
 				7A50AB011A72DB020089C9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
