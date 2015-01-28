@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.whiteColor()
         var welcome : UILabel =  UILabel(frame: CGRectMake(37.5, 300, 300, 50))
-        welcome.text = "Second Screen with changes"
+        welcome.text = "Second Screen with changes 2"
         welcome.font = UIFont.systemFontOfSize(24)
         self.view.addSubview(welcome)
     }
